@@ -42,3 +42,32 @@ JSON stores data in plain text format. This provides a software and hardware ind
 
 ##  What is API in simple words?
 API is the acronym for application programming interface — a software intermediary that allows two applications to talk to each other.
+
+
+##  What is API in simple words?
+API is the acronym for application programming interface — a software intermediary that allows two applications to talk to each other.
+
+
+## What is Web API 
+
+```mermaid
+sequenceDiagram
+
+Client ->> Server: Rquest: getAllUsers
+Server ->> Client: Response: All users Provided 
+Note right of Server: Text->Json or xml
+Client ->> Server: Rquest: UserinfoById(10) 
+Server ->> Client: Response: info about student 10 provided
+```
+
+- A Web API (Application Programming Interface) is a set of protocols and tools for building and interacting with software applications.
+- It allows different software systems to communicate with each other over the web.
+
+### key point about web APIs :
+ **Interoperability**: Web APIs enable different systems, platforms, and applications to interact and exchange data. This can be between a client application (like a web browser) and a server, or between two servers.
+ **HTTP Protocol**: Most Web APIs use the HTTP protocol for communication, which is the same protocol used by the web. This makes them accessible via URLs and allows them to be easily integrated with web technologies.
+**RESTful APIs**: One of the most common types of Web APIs is RESTful (Representational State Transfer) APIs. RESTful APIs adhere to a set of principles and use standard HTTP methods like GET, POST, PUT, DELETE, etc., to perform operations on resources.
+ **Data Formats**: Web APIs often use JSON (JavaScript Object Notation) or XML (Extensible Markup Language) to format the data being exchanged. JSON is more commonly used due to its simplicity and ease of use with Programming Languages.
+**Endpoints**: An API endpoint is a specific URL where an API can access the resources it needs to perform its function. Each endpoint corresponds to a different function of the API.
+**Authentication and Authorization**: Web APIs often require authentication (verifying the identity of a user or system) and authorization (checking if the user or system has permission to perform a certain action). Common methods include API keys, OAuth, and tokens.
+
