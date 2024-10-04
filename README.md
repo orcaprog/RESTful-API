@@ -38,3 +38,4 @@ Here's a simple example of a JSON object:
   }
 }
 ```
+JSON stores data in plain text format. This provides a software and hardware independent way of storing , transporting , and sharing data. 
