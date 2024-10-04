@@ -39,3 +39,6 @@ Here's a simple example of a JSON object:
 }
 ```
 JSON stores data in plain text format. This provides a software and hardware independent way of storing , transporting , and sharing data. 
+
+##  What is API in simple words?
+API is the acronym for application programming interface — a software intermediary that allows two applications to talk to each other.
