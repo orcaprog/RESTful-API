@@ -52,12 +52,14 @@ API is the acronym for application programming interface — a software intermed
 
 ```mermaid
 sequenceDiagram
-
+Note left of Client: stateless
+Note right of Client: Endpoint:URL
 Client ->> Server: Rquest: getAllUsers
 Server ->> Client: Response: All users Provided 
-Note right of Server: Text->Json or xml
+Note left of Server: Json or xml <- Text
 Client ->> Server: Rquest: UserinfoById(10) 
 Server ->> Client: Response: info about student 10 provided
+
 ```
 
 - A Web API (Application Programming Interface) is a set of protocols and tools for building and interacting with software applications.
